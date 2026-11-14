@@ -1,7 +1,7 @@
 # Turns the three text blocks of README.txt into red SVG cards (GitHub can't colour plain code blocks).
 import re, sys
 from xml.sax.saxutils import escape
-RED, DIM, VAL, BG, BORDER = '#ff2b3a', '#7a2a31', '#e6edf3', '#0d1117', '#30363d'
+RED, DIM, VAL, BG, BORDER = '#ff2b3a', '#b0444d', '#e6edf3', '#0d1117', '#30363d'
 FS, LH, CW, PAD = 14, 19, 8.43, 22
 FONT = "ui-monospace, SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace"
 src = open(sys.argv[1], encoding='utf-8').read()
@@ -23,7 +23,7 @@ def segs_info(rest):
     return out
 
 def segs_tree(line):
-    m = re.match(r'([├└]── )(\S+)(\s+)(\S+)(\s+)(.*)$', line)
+    m = re.match(r'([├└]── )(.+?)(\s{2,})(.+?)(\s{2,})(.*)$', line)
     if m: return [(m[1], DIM), (m[2], RED), (m[3], DIM), (m[4], DIM), (m[5], DIM), (m[6], VAL)]
     return [(line, RED)]
 
