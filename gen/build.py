@@ -26,13 +26,14 @@ info = [
  '.',
  head('Contact'),
  kv('Instagram', 'instagram.com/renderedby.pk'),
+ kv('Website', 'renderedbypk.vercel.app'),
  kv('Email', 'pavankch29@gmail.com'),
  '.',
  head('Stats'),
  kv('Years in post', '4'),
  kv('Projects delivered', '15+'),
  kv('Brands', '6'),
- kv('Public repos', '7'),
+ kv('Public repos', '8'),
 ]
 n = max(len(art), len(info))
 top = (n - len(info)) // 2
@@ -47,13 +48,13 @@ work = '''~/films  (client work, 2026)
 ├── AtCozy                Retail     The New Season · store launch film
 ├── Fit Secrets           Retail     Store film · 9:16
 └── Cardinelle            Fashion    Key art + poster series · 11 pieces'''
-code = '''~/code
+code = '''~/code  (pinned, best first)
 ├── Aethelgard            Rust       Double-entry ledger · exact multi-currency maths · Merkle audit proofs
-├── HyperionMesh          Monorepo   Full build + tests behind single-command orchestration
-├── CampaignLens          TS         Campaign analytics product build
-├── HDI-Prediction-App    Python     HDI prediction ML web app on Flask
-├── Resume-Builder        JS         Resume builder in the browser
-└── Portfolio             three.js   Scroll walk through a Kyoto house, one chapter per room'''
+├── CampaignLens          Next.js    Agency reporting: what changed, budget pacing, branded client reports
+├── Portfolio             three.js   Scroll walk through a Kyoto house · renderedbypk.vercel.app
+├── Resume-Builder        JS         Local-first resume studio · 60 templates · PDF + DOCX export
+├── ELORA                 three.js   Client site · one WebGL camera through an agency's departments
+└── HDI-Prediction-App    Python     scikit-learn HDI model behind a Flask form'''
 readme = f'''```text
 {block1}
 ```
@@ -66,6 +67,5 @@ readme = f'''```text
 {code}
 ```
 '''
-open('README.md', 'w', encoding='utf-8').write(readme)
-open('block1.txt', 'w', encoding='utf-8').write(block1)
+open('README.txt', 'w', encoding='utf-8').write(readme)
 print(readme)

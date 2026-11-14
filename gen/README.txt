@@ -12,14 +12,14 @@
            ;:;:''.;*++****%%#+::'..:::::;;;          │ .
         ;;:'':;::;#%%%%%#@@@+:'.'::::::::::::;       │ - Contact ──────────────────────────────────────────
      ;:::::;:':;:;@@@@@@@@@!'''::::::::::::::'';     │ . Instagram: ........... instagram.com/renderedby.pk
-    ::::::::::'::::%@@@@#@+''::::::::::::':''''':    │ . Email: ...................... pavankch29@gmail.com
-   :'':''::::::::::'%@@%%%:.::::::::::::''''''''''   │ .
-  :''''''''':::::::::#@#@;.:::::::::::::''.'''''''   │ - Stats ────────────────────────────────────────────
- ;''''''''''''::::''':*#*.''''''::::''''...'''''''   │ . Years in post: ................................. 4
-;''''''''..''''''':::''+'''''''''''''''''..'''''''   │ . Projects delivered: .......................... 15+
-:'''''''....''''''''''''':::''''''''''''...'''''''   │ . Brands: ........................................ 6
-::'''''....'''''''::''''::''':::'''''''..:'..'''''   │ . Public repos: .................................. 7
-:'''''''..: '''''''''':'::::::'''''''''.'  :.''.''   │
+    ::::::::::'::::%@@@@#@+''::::::::::::':''''':    │ . Website: ................. renderedbypk.vercel.app
+   :'':''::::::::::'%@@%%%:.::::::::::::''''''''''   │ . Email: ...................... pavankch29@gmail.com
+  :''''''''':::::::::#@#@;.:::::::::::::''.'''''''   │ .
+ ;''''''''''''::::''':*#*.''''''::::''''...'''''''   │ - Stats ────────────────────────────────────────────
+;''''''''..''''''':::''+'''''''''''''''''..'''''''   │ . Years in post: ................................. 4
+:'''''''....''''''''''''':::''''''''''''...'''''''   │ . Projects delivered: .......................... 15+
+::'''''....'''''''::''''::''':::'''''''..:'..'''''   │ . Brands: ........................................ 6
+:'''''''..: '''''''''':'::::::'''''''''.'  :.''.''   │ . Public repos: .................................. 8
 ```
 
 ```text
@@ -33,11 +33,11 @@
 ```
 
 ```text
-~/code
+~/code  (pinned, best first)
 ├── Aethelgard            Rust       Double-entry ledger · exact multi-currency maths · Merkle audit proofs
-├── HyperionMesh          Monorepo   Full build + tests behind single-command orchestration
-├── CampaignLens          TS         Campaign analytics product build
-├── HDI-Prediction-App    Python     HDI prediction ML web app on Flask
-├── Resume-Builder        JS         Resume builder in the browser
-└── Portfolio             three.js   Scroll walk through a Kyoto house, one chapter per room
+├── CampaignLens          Next.js    Agency reporting: what changed, budget pacing, branded client reports
+├── Portfolio             three.js   Scroll walk through a Kyoto house · renderedbypk.vercel.app
+├── Resume-Builder        JS         Local-first resume studio · 60 templates · PDF + DOCX export
+├── ELORA                 three.js   Client site · one WebGL camera through an agency's departments
+└── HDI-Prediction-App    Python     scikit-learn HDI model behind a Flask form
 ```
